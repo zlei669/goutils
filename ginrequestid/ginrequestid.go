@@ -2,7 +2,7 @@ package ginrequestid
 
 import (
 	"github.com/gin-gonic/gin"
-	uuid "github.com/satori/go.uuid"
+	"github.com/satori/go.uuid"
 )
 
 var RequestID string = "X-Request-Id"
